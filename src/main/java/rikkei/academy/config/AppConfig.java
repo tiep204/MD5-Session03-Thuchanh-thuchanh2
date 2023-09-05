@@ -49,6 +49,7 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }
+    ///asdgsadgsdg
 
     //Cấu hình Thymleaf
     @Bean
@@ -103,7 +104,7 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/bai7_th2_province");
         dataSource.setUsername("root");
-        dataSource.setPassword("Minhtri29092014");
+        dataSource.setPassword("dangtiep204");
         return dataSource;
     }
 
